@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import jwt = require('jsonwebtoken');
+import * as jwt from "jsonwebtoken";
 
 interface TokenPayload {
     id: number;

@@ -11,6 +11,10 @@ export const saveUser = async (request: Request, response: Response) => {
     return response.json({ message: "Usuário já existe" });
   }
 
+  if(!user_nome || !user_senha){
+    return response.status(404).json({ message: "Dados inválidos" });
+  }
+
   const user = getRepository(User).save(request.body);
   return response.json({ message: "Usuário Salvo com Sucesso!" });
 };

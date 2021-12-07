@@ -16,13 +16,11 @@ A Aplicação foi construida usando [nodejs](https://nodejs.org/) e utiliza o ge
 ```
 git clone https://github.com/thadeuivson/pixit-back-end.git
 ```
-
 #### 2. Instalar as dependências. 
 Elas estão descritas no arquivo `package.json` e podem ser instaladas usando o comando:
 ```bash
 npm install
 ```
-
 #### 3. Instalar o MySQL
 Baixe a aplicação em https://www.mysql.com/downloads e siga as instruções da [documentação oficial](https://dev.mysql.com/doc/).
 
